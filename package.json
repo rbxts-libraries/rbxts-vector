@@ -1,6 +1,6 @@
 {
 	"name": "@rbxts/vector",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A port of RobloxianDemo's Vector module.",
 	"main": "src/Vector/init.luau",
 	"types": "src/Vector/index.d.ts",
