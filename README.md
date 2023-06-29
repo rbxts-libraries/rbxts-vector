@@ -108,7 +108,7 @@ import { Vector } from "@rbxts/vector";
 // Functions
 const Part = new Instance("Part");
 Part.Name = "Part";
-Part.Position = Vector.GetRandomUnitVector();
+Part.Position = GetRandomUnitVector();
 Part.Size = Vector.GetRandomUnitVector();
 Part.Parent = Workspace;
 
