@@ -112,7 +112,7 @@ Part.Position = GetRandomUnitVector();
 Part.Size = GetRandomUnitVector();
 Part.Parent = Workspace;
 
-const angleBetweenSigned = Vector.AngleBetweenSigned(Part.Position, Part.Size, Vector3.new(1, 1, 1));
+const angleBetweenSigned = AngleBetweenSigned(Part.Position, Part.Size, Vector3.new(1, 1, 1));
 
 print(angleBetweenSigned);
 ```
