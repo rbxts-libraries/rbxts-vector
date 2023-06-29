@@ -103,7 +103,7 @@ Return a random unit vector (could be used for equal distribution around a spher
 import { Workspace } from "@rbxts/services";
 
 // Modules
-import { Vector } from "@rbxts/vector";
+import { GetRandomUnitVector } from "@rbxts/vector";
 
 // Functions
 const Part = new Instance("Part");
